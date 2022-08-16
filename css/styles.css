@@ -1,0 +1,190 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.title-atas {
+    padding-right: 7%;
+}
+
+.engineer {
+    width: 70%;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+}
+
+#title {
+    background-color: #41afef;
+
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 2% 15% 5%;
+}
+
+/* Navigation Bar */
+.nav-item {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.navbar {
+    padding: 0px 0px 4rem 0px;
+}
+
+.download-button {
+    margin: 5% 4px 0px 4px;
+}
+
+/* Features */
+
+#features {
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+    padding: 10% 15%;
+    background-color: #fff;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-icon {
+    color: #9fd7f7;
+    line-height: 1.5;
+}
+
+.feature-icon:hover {
+    color: #41afef;
+}
+
+.advantages {
+    text-align: center;
+}
+
+/* Testimonials */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #9fd7f7;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+}
+
+.testi-image {
+    width: 10%;
+    clip-path: circle(50px);
+    margin: 20px;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+#press {
+    background-color: #9fd7f7;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 3;
+    bottom: 101px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    z-index: 4;
+    bottom: 100px;
+}
+
+.pricing-box {
+    padding: 3% 2%;
+}
+
+#cta {
+    text-align: center;
+    background-color: #41afef;
+    padding: 7% 18%;
+    color: #fff;
+}
+
+#footer {
+    text-align: center;
+    padding: 1% 8% 0%;
+}
+
+
+@media (max-width: 900px) {
+    .engineer {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate();
+        left: 0px;
+    }
+
+
+
+    #title {
+        text-align: center;
+
+    }
+
+    .container-fluid {
+        padding-bottom: 17%;
+    }
+
+    .navbar {
+        text-align: left;
+    }
+
+    .nav-item {
+        position: relative;
+        right: 17px;
+    }
+}

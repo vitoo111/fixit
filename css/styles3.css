@@ -1,0 +1,19 @@
+.enginner-img {
+    width: 40%;
+    clip-path: circle(70px)
+}
+
+body{
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+h2{
+    font-weight: 600;
+}
+
+.container-fluid{
+    margin-top: 7%;
+    background-color: #9fd7f7;
+    padding: 7% 15%;
+}

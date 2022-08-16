@@ -1,0 +1,16 @@
+body {
+    padding: 13% 40% 7%;
+    background-color: #9fd7f7;
+    font-family: 'Montserrat';
+}
+
+
+h2 {
+    font-family: 'Ubuntu';
+    color: #fff;
+    font-weight: 900;
+}
+
+.fw-normal{
+    color: #fff;
+}
